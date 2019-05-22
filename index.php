@@ -14,6 +14,13 @@
 </header>
 
 <body>
+  <?php include('./includes/functions.php') ?>
+  <div id='form-wrapper'>
+    <form method='post' action=''>
+      <input name='textinput' type='text' />
+      <input name='submitbutton' type='submit' value='go' />
+    </form>
+  </div>
   <?php include('./includes/inc_menu.php') ?>
   <?php include('./includes/inc_main-content.php') ?>
 </body>
